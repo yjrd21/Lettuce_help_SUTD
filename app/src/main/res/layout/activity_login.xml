@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:inputType="phone"
         android:id="@+id/phone"
-        android:hint="Phone Number"
+        android:hint="Email"
         android:maxLines="1"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
@@ -51,6 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
+        android:backgroundTint="#aed19d"
         android:text="Login"
         android:layout_marginTop="40dp"/>
 
@@ -64,12 +65,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
             android:text="Don't have an account?"/>
         <TextView
             android:id="@+id/registerNowBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
+            android:textSize="20dp"
             android:text="Register Now"
             android:textStyle="bold" />
 
