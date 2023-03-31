@@ -7,7 +7,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:background= "@drawable/let"
-    tools:context=".Register">
+    tools:context=".RegisterStaff">
 
     <TextView
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
         android:fontFamily="sans-serif-condensed"
         android:textSize="18sp"
         android:layout_marginStart="20dp"
-        android:text="Volunteer Registration"/>
+        android:text="Staff Registration"/>
 
     <EditText
         android:layout_marginTop="20dp"
