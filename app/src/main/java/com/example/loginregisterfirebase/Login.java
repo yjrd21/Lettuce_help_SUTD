@@ -17,7 +17,7 @@ public class  Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        final EditText phone = findViewById(R.id.phone);
+        final EditText userid = findViewById(R.id.userid);
         final EditText password = findViewById(R.id.password);
         final Button loginBtn = findViewById(R.id.loginBtn);
         final TextView registerNowBtn = findViewById(R.id.registerNowBtn);
@@ -26,14 +26,14 @@ public class  Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                final String phoneTxt = phone.getText().toString();
+                final String userTxt = userid.getText().toString();
                 final String passwordTxt = password.getText().toString();
 
-                if(phoneTxt.isEmpty()||passwordTxt.isEmpty()){
-                    Toast.makeText(Login.this,"Please enter your phone number or password",Toast.LENGTH_SHORT).show();
-                }
-                else{
-
+                if(userTxt.isEmpty()){
+                    Toast.makeText(Login.this,"Please enter your email",Toast.LENGTH_SHORT).show();
+                } else if (passwordTxt.isEmpty()) {
+                    Toast.makeText(Login.this,"Please enter your password",Toast.LENGTH_SHORT).show();
+                } else{
                 }
             }
         });
