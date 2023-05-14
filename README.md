@@ -19,3 +19,7 @@ These solutions allow staff to prioritize the collection of filled boxes and vol
 
 The app contains user registration, forget password, reset password and issue reporting functionalities.
 
+
+### App video 
+https://github.com/yjrd21/Lettuce_help_SUTD/assets/66791547/44def1ae-7c71-4fd3-8cb5-c73136594b8d
+
