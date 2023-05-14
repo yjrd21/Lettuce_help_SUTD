@@ -21,5 +21,9 @@ The app contains user registration, forget password, reset password and issue re
 
 
 ### App video 
-https://github.com/yjrd21/Lettuce_help_SUTD/assets/66791547/44def1ae-7c71-4fd3-8cb5-c73136594b8d
+
+https://github.com/yjrd21/Lettuce_help_SUTD/assets/66791547/1c644c84-a8ae-43ba-bd28-d88737342730
+
+
+
 
